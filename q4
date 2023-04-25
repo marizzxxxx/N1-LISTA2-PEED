@@ -1,0 +1,7 @@
+#questao 4
+
+nums = set(input("Digite 5 numeros separadaos por virgula: ").split(","))
+print("Os numeros digitados foram: ", nums)
+numsremov = input("Digite o numero que deseja remover: ")
+nums.discard(numsremov)
+print("O conjunto de numeros atualizado é: ", nums)
