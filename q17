@@ -1,0 +1,5 @@
+#questao 17
+
+nomes = tuple(input("Digite um nome: ") for i in range(3))
+marias = nomes.count('Maria')
+print("O nome Maria aparece", marias, "vezes na tupla.")

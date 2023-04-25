@@ -1,0 +1,8 @@
+#questão 8
+
+dic = {}
+
+cnome = input("Digite o nome: ")
+cidad = input("Digite a idade: ")
+
+print ("A chave idade é:", cidad)

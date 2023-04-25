@@ -1,0 +1,13 @@
+#questão 9
+
+nums = input("Digite 10 números separados por espaço: ")
+
+lnums = [int(n) for n in nums.split()]
+
+cnums = set(lnums)
+spar = set()
+for num in cnums:
+    if num % 2 != 0:
+        spar.add(num)
+
+print("Sem os pares:", spar)

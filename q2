@@ -1,0 +1,13 @@
+#questão 1
+
+nome = tuple()
+
+nome = list(nome)
+txt = input("Digite 3 nomes: ")
+txt1 = input("Qual nome voce deseja editar?")
+replacetxt = input("Qual seria a nova palavra?")
+print (txt)
+novonome = txt.replace("findword,replaceword")
+nome = tuple(nome)
+
+print (novonome)

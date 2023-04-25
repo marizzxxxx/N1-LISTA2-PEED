@@ -1,0 +1,5 @@
+#questão 7
+
+nums = tuple(input("Digite 5 numeros separados por virgula: ").split(","))
+
+print ("O primeiro nome digitado foi:", nums[0])

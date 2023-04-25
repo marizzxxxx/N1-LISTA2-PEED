@@ -1,0 +1,8 @@
+#questão 3
+
+dic = input("Digite uma chave:")
+dic = input("Digite um valor:")
+
+dic = {}
+
+print("A chave e o valor são:", dic)
